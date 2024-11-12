@@ -68,6 +68,10 @@ The project is broken down into several key steps, including data preprocessing,
    ```sh
    pip install -r requirements.txt
    ```
+5. Install optuna:
+   ```sh
+   pip install torch==1.10.0+cu102 torchvision==0.11.1+cu102 torchaudio==0.10.0+cu102 -f https://download.pytorch.org/whl/torch_stable.html
+   ```   
 
 ## Usage
 - Open the Jupyter notebook (`starlight_temperature_prediction.ipynb`) to explore the code and results.
